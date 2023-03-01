@@ -1,3 +1,5 @@
-In the following poc, we have implement the TLS for rabbit Mq using the spring cloud stream  , so there no change at the code level , all the configuration is done using properties file. 
-Before we can make the changes at code level , we have set the rabbit mq on local and generate the certificate beforehand , so that i have created a blog and steps are easy to follow.
+In the following poc, I have implement the TLS for rabbit Mq using the spring cloud stream  ,however there won't be a change at the code level , all parameter can be configured in a properties file. 
+
+PreRequiste-
+I had to set the rabbitMQ on local machine and generate the certificates ,i have create a blog to help others to follow step by step , there may be little changes in the steps since i have mac but almost all command are similiar for windows people 
 https://rjawsblog.substack.com/p/rabbitmq-ssl-configuration
